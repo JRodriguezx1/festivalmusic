@@ -1,0 +1,15 @@
+.sobre-festival{
+padding: $separcion 0;
+  @include tablet {    //para pantalla superior a 768px
+    @include grid(2, $separcion);  // me crea 2 columnas
+                  }           
+               }
+ 
+.contenido-festival {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   h2{ font-size: 3rem; }
+   .fecha { font-weight: $bold; color: $rosa; }
+   .texto { line-height: 1.5; }
+                    }              

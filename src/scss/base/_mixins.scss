@@ -1,0 +1,25 @@
+@mixin telefono {
+  @media (min-width: $telefono) {
+    @content; //direcctiva que recibe lo que se le pase del header cuando se llama al mixin telefono
+                            }  
+                }
+
+@mixin tablet {
+    @media (min-width: $tablet) {
+        @content; 
+                              }  
+              }       
+                                  
+                                  
+
+@mixin desktop {
+    @media (min-width: $desktop) {
+        @content; 
+                               }  
+                }
+ 
+@mixin grid($column, $espacio) {
+  display: grid;
+  grid-template-columns: repeat($column, 1fr);
+  column-gap: $espacio;
+            }

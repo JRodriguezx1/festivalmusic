@@ -1,0 +1,49 @@
+.video {  //div padre
+  position: relative;   //toma todos los elementos como el div overlay y el elemento video y los 
+                        //posiciona a su lugar inicial o natural
+  max-height: 70rem;  //toma maximo 70rem de ahi no toma mas, pero si puede tomar menos de 70rem
+  overflow: hidden;   //por defecto los videos tiene un width del 100% por eso se desborda, si el
+                      //video es mas alto de 70rem y mas ancho, con overflow se corta o se ocualta
+                      //tando el alto coo el anchho hasta donde esta definido el tamaño del elemento.
+
+    .overlay {  //div hijo
+      position: absolute; //al darle position aboslute al <div .overlay> , hace que el elemento video 
+                          //tomo como posicion natural la misma posicion del <div .video>. es como si 
+                          //el elemento <div overlay> con position absolute deja de tener tamaño en el 
+                          //flujo, se reduce a cero '0', cediendo su posicion al elemento video, y 
+                          //overlay se posiciona abolutamente en base a su padre que que es el 
+                          //elemento <div .video>. 
+      width: 100%;
+      height: 100%; //toma los 70rem que seria el 100%
+      
+      background: -moz-linear-gradient(-45deg,  rgba(137,28,30,0.8) 0%, rgba(158,55,242,0.6) 67%, rgba(255,255,255,0.5) 100%); 
+      background: -webkit-linear-gradient(-45deg,  rgba(137,28,30,0.8) 0%,rgba(158,55,242,0.6) 67%,rgba(255,255,255,0.5) 100%); 
+      background: linear-gradient(135deg,  rgba(137,28,30,0.8) 0%,rgba(158,55,242,0.6) 67%,rgba(255,255,255,0.5) 100%); 
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc891c1e', endColorstr='#80ffffff',GradientType=1 );          
+             } 
+      /***************************************/       
+    .contenido-video {
+      height: 100%;   //el <div class="contenedor contenido-video">...h2...</div> toma el 100% de su
+                      //padre que seria overlay el cual overlay tiene 100% de los 70rem de su padre 
+                      //div .video
+      display: flex;   //alinea h2 horizontalmente
+      align-items: center; //lo centra verticalmente
+      position: relative;  // el contenido es decir el h2 lo vuelve a su posicion natural
+      z-index: 1;          //me posiciona el h2 por encima del video y se puede seleccionar el texto 
+      h2 {
+
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       color: $blanco;
+       font-size: 5rem;
+       span {
+        background-color: $rosa;
+        font-size: 1.8rem;
+        padding: 1rem 2rem;
+            }
+
+         } 
+                     }
+       }
+         

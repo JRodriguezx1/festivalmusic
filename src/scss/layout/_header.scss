@@ -1,0 +1,50 @@
+.header {
+ background-color: $verde;
+
+   .contenido-header {
+      padding: $separcion/2 0;
+     // display: flex;
+     // flex-direction: column;
+     // align-items: center;
+
+      @include tablet {  // el mixin se utiliza cuando la clase se llama dentro de si mismo
+        display: flex;   //cuando la pantalla sea mayor a 768px llama al mixon que tiene mediaquierie
+       // flex-direction: row;            // bloque de codigo que se pasa al
+        justify-content: space-between;   // mixin, y el mixin lo reibe por
+        align-items: center;              // medio de la directiva @content
+                      }
+                     }
+
+          h1 {   
+          color: $blanco;
+          text-align: center;
+          margin-bottom: 1rem;
+          @include tablet {
+            margin-bottom: 0;         // se llama al mixin y se le pasa el margin-bot...
+                          }
+             } 
+
+   &.fijo { position: fixed;
+            width: 100%; 
+            box-shadow: 0 .3rem .3rem #444;
+          }
+
+        }
+ 
+        
+ .navegacion-principal {
+    display: flex;   //organiza los links de navegacion horizontalmente
+    justify-content: center;   //centra los links horizontalmente
+    gap: 2rem;
+  a{ 
+    color: $blanco;
+    font-size: 2rem;   
+    &:hover {       //& = hace referencia al elemento que lo rodea
+      color: $amarillo;
+            }
+   }
+  // a:hover {
+  //   color: $amarillo;
+   //        }
+                       }       
+

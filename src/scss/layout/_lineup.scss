@@ -1,0 +1,64 @@
+.lineup {
+  background-color: $rosa;
+  padding: $separcion 0;
+     h3, p {
+      text-align: center;
+      color: $blanco;
+           }
+     .dia {
+      text-transform: uppercase;
+      margin: $separcion 0;
+          }  
+       }
+
+.escenarios-contenedor {
+   @include tablet{
+    @include grid(2, $separcion);
+                  }
+
+    .nombre-escenario {
+    padding-top: 2rem;
+    color: $negro;
+    font-size: 2rem;
+       &:after {  //crea seudo elemento despues de nombre-escenario es decir despues dle parrafo
+        content: ''; 
+        width: 20rem;
+        height: 10rem;
+        display: block;
+        margin: 2rem auto 0 auto; //2 rem arriba, auto derecha, 0 abajo, auto izquierda y se centra el elemento
+        background-size: 15rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+               }   
+                      }              
+                       }
+                       
+
+.rock .nombre-escenario {
+   &::after {
+        background-image: url(../img/icono_rock.png);
+            }           }
+
+.edm .nombre-escenario {
+    &::after {
+        background-image: url(../img/icono_edm.png);
+             }         }                       
+
+
+.calendario {
+  padding: 0; //quita el borde de la izq de la lista ordenada de los musicos
+  list-style: none;  // quita las viñetas
+     li {
+       padding: $separcion / 2; //separa la lista ordenada
+       font-weight: $bold;
+       span { font-weight: $normal; }
+        }
+            }
+
+.bg-verde .calendario li:nth-child(2n+1) {   //2x0 +1 = '1', 2x1 + 1 = '3', 2x2 + 1 = '5'..== 1,3,5...
+  background-color: darken($verde, 10);
+                                         }  
+ 
+.bg-amarillo .calendario li:nth-child(2n+1) {   
+    background-color: darken($amarillo, 10);
+                                         }                                         

@@ -1,0 +1,49 @@
+html {
+   font-size: 62.5%;   //= 10px = 1rem
+   box-sizing: border-box;
+     }
+*, *:before, *:after{
+ box-sizing: inherit;
+                    }
+
+ body {
+
+  font-family: $fuenteprincipal;
+  font-size: 1.6rem;
+      } 
+      
+   .fijar-body {
+    overflow: hidden;  //se fija o se ancla la imagen
+               }   
+      
+ p { font-size: 2rem; color: $negro; } 
+
+ .contenedor {
+   max-width: 100rem;  //tamaño de 1200px
+   width: 95%;  //cuando la pantalla sea menor al os 1200px aplica 95%
+   margin: 0 auto;  //centrar
+              }
+
+ a {
+    text-decoration: none; //quitar interlineado
+   }
+
+img {
+  max-width: 100%; // iamgenes responsive
+    }
+
+h1, h2, h3 { margin: 0; }    
+
+h1 { 
+    font-size: 4rem;
+    font-weight: $black;
+    
+   }   
+
+h2 { 
+      font-size: 3.6rem;
+   }
+
+h3 { 
+    font-size: 3rem;
+   }
