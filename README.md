@@ -26,7 +26,7 @@ Si quieres hechas un vistazo al proyecto, te recomiendo:
 ## Autor ✒️
 **Julian Rodriguez**
 
-* [julianlink123@hotmail.com](julianlink123@hotmail.com)
+* [julianithox1@gmail.com](mailto:julianithox1@gmail.com)
 <!--* [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
 * [Behance](https://www.behance.net/tu-url-de-behance)
 * [Dribble](https://www.dribble.com/tu-url-de-dribble)
