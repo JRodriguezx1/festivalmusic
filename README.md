@@ -1,8 +1,8 @@
 # Festival de musica
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://github.com/JRodriguezx1/festivalmusic/blob/master/build/img/festival2021.png?raw=true)
 
 ## Ejemplo en vivo
-- [URL de la pagina web](URL-de-github-pages-de-este-proyecto)
+- [URL de la pagina web](https://festival2021.netlify.app/)
 
 ## Descripción 📑
 
@@ -19,18 +19,18 @@ Se crea ventana modal para visualizar las imagenes del festival, se realiza anim
 ## Vista previa del proyecto
 Si quieres hechas un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://github.com/JRodriguezx1/festivalmusic/blob/master/build/img/festival2021b.png?raw=true)
+![Captura del proyecto](https://github.com/JRodriguezx1/festivalmusic/blob/master/build/img/imagen_rock.jpg?raw=true)
+
 
 ## Autor ✒️
 **Julian Rodriguez**
 
-* [micorreo@midominio.com](micorreo@midominio.com)
-* [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
+* [julianlink123@hotmail.com](julianlink123@hotmail.com)
+<!--* [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
 * [Behance](https://www.behance.net/tu-url-de-behance)
 * [Dribble](https://www.dribble.com/tu-url-de-dribble)
-* [Porfolio web](https://tu-dominio.com/)
+* [Porfolio web](https://tu-dominio.com/)-->
 
 ## Instalación 
 Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
